@@ -1,7 +1,12 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <section>
+      <div className="h-screen bg-zinc-950 text-zinc-50">
+        <h1 className="font-roboto text-4xl font-bold">Sua Capsula do tempo</h1>
+        <h1 className="font-baijamjure text-4xl font-bold">
+          Sua Capsula do tempo
+        </h1>
+      </div>
+    </section>
   )
 }
